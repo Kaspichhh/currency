@@ -13,7 +13,7 @@ import shutil
 
 class LatviaBankCurrency(Document):
 	pass 
-
+##komentārs
 @frappe.whitelist()
 def download_file():
 	file_name = "currencies.xml"
